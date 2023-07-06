@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7775CEF22A56337600507067 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CEF12A56337600507067 /* AppDelegate.swift */; };
+		7775CEF62A56337600507067 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CEF52A56337600507067 /* ViewController.swift */; };
+		7775CEFB2A56337800507067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7775CEFA2A56337800507067 /* Assets.xcassets */; };
+		7775CEFE2A56337800507067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7775CEFC2A56337800507067 /* LaunchScreen.storyboard */; };
+		7775CF092A56337800507067 /* BloodyBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF082A56337800507067 /* BloodyBusTests.swift */; };
+		7775CF132A56337800507067 /* BloodyBusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF122A56337800507067 /* BloodyBusUITests.swift */; };
+		7775CF152A56337800507067 /* BloodyBusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF142A56337800507067 /* BloodyBusUITestsLaunchTests.swift */; };
+		7775CF242A56356C00507067 /* UIView+StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF232A56356C00507067 /* UIView+StackView.swift */; };
+		7775CF262A5636D500507067 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7775CF252A5636D400507067 /* GoogleService-Info.plist */; };
+		7775CF292A56377E00507067 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF282A56377E00507067 /* FirebaseAnalytics */; };
+		7775CF2B2A56377E00507067 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF2A2A56377E00507067 /* FirebaseAnalyticsSwift */; };
+		7775CF2D2A56377E00507067 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF2C2A56377E00507067 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		7775CF2F2A56377E00507067 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF2E2A56377E00507067 /* FirebaseAuth */; };
+		7775CF312A56377E00507067 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF302A56377E00507067 /* FirebaseDatabase */; };
+		7775CF332A56377E00507067 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF322A56377E00507067 /* FirebaseDatabaseSwift */; };
+		7775CF352A56377E00507067 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF342A56377E00507067 /* FirebaseFirestore */; };
+		7775CF372A56377E00507067 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF362A56377E00507067 /* FirebaseFirestoreSwift */; };
+		7775CF392A56377E00507067 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF382A56377E00507067 /* FirebasePerformance */; };
+		7775CF3B2A56377E00507067 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF3A2A56377E00507067 /* FirebaseStorage */; };
+		7775CF402A563A5800507067 /* Login+RegisterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF3F2A563A5800507067 /* Login+RegisterService.swift */; };
+		7775CF462A563CFF00507067 /* UserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF452A563CFF00507067 /* UserModels.swift */; };
+		7775CF482A563D3B00507067 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF472A563D3B00507067 /* UserRepository.swift */; };
+		7775CF4B2A563E1000507067 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF4A2A563E1000507067 /* Errors.swift */; };
+		7775CF4D2A563E4D00507067 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF4C2A563E4D00507067 /* StringExtension.swift */; };
+		7775CF502A563E7800507067 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7775CF522A563E7800507067 /* Localizable.strings */; };
+		7775CF542A563EBC00507067 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF532A563EBC00507067 /* UserSettings.swift */; };
+		7775CF562A563F5A00507067 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7775CF552A563F5A00507067 /* Settings.bundle */; };
+		7775CF582A563FED00507067 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF572A563FED00507067 /* UserEntity.swift */; };
+		7775CF5A2A56402A00507067 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF592A56402A00507067 /* UserService.swift */; };
+		7775CF5D2A56443B00507067 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF5C2A56443B00507067 /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7775CF052A56337800507067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7775CEE62A56337600507067 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7775CEED2A56337600507067;
+			remoteInfo = BloodyBus;
+		};
+		7775CF0F2A56337800507067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7775CEE62A56337600507067 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7775CEED2A56337600507067;
+			remoteInfo = BloodyBus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7775CEEE2A56337600507067 /* BloodyBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodyBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7775CEF12A56337600507067 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7775CEF52A56337600507067 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7775CEFA2A56337800507067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7775CEFD2A56337800507067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7775CEFF2A56337800507067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7775CF042A56337800507067 /* BloodyBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodyBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7775CF082A56337800507067 /* BloodyBusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodyBusTests.swift; sourceTree = "<group>"; };
+		7775CF0E2A56337800507067 /* BloodyBusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodyBusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7775CF122A56337800507067 /* BloodyBusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodyBusUITests.swift; sourceTree = "<group>"; };
+		7775CF142A56337800507067 /* BloodyBusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodyBusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7775CF232A56356C00507067 /* UIView+StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+StackView.swift"; sourceTree = "<group>"; };
+		7775CF252A5636D400507067 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7775CF3F2A563A5800507067 /* Login+RegisterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login+RegisterService.swift"; sourceTree = "<group>"; };
+		7775CF452A563CFF00507067 /* UserModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModels.swift; sourceTree = "<group>"; };
+		7775CF472A563D3B00507067 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		7775CF4A2A563E1000507067 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		7775CF4C2A563E4D00507067 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		7775CF512A563E7800507067 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7775CF532A563EBC00507067 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		7775CF552A563F5A00507067 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		7775CF572A563FED00507067 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		7775CF592A56402A00507067 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		7775CF5C2A56443B00507067 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7775CEEB2A56337600507067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7775CF332A56377E00507067 /* FirebaseDatabaseSwift in Frameworks */,
+				7775CF312A56377E00507067 /* FirebaseDatabase in Frameworks */,
+				7775CF392A56377E00507067 /* FirebasePerformance in Frameworks */,
+				7775CF3B2A56377E00507067 /* FirebaseStorage in Frameworks */,
+				7775CF2B2A56377E00507067 /* FirebaseAnalyticsSwift in Frameworks */,
+				7775CF2D2A56377E00507067 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				7775CF292A56377E00507067 /* FirebaseAnalytics in Frameworks */,
+				7775CF2F2A56377E00507067 /* FirebaseAuth in Frameworks */,
+				7775CF352A56377E00507067 /* FirebaseFirestore in Frameworks */,
+				7775CF372A56377E00507067 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7775CF012A56337800507067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7775CF0B2A56337800507067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7775CEE52A56337600507067 = {
+			isa = PBXGroup;
+			children = (
+				7775CF552A563F5A00507067 /* Settings.bundle */,
+				7775CF522A563E7800507067 /* Localizable.strings */,
+				7775CEF02A56337600507067 /* BloodyBus */,
+				7775CF072A56337800507067 /* BloodyBusTests */,
+				7775CF112A56337800507067 /* BloodyBusUITests */,
+				7775CEEF2A56337600507067 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7775CEEF2A56337600507067 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7775CEEE2A56337600507067 /* BloodyBus.app */,
+				7775CF042A56337800507067 /* BloodyBusTests.xctest */,
+				7775CF0E2A56337800507067 /* BloodyBusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7775CEF02A56337600507067 /* BloodyBus */ = {
+			isa = PBXGroup;
+			children = (
+				7775CF5B2A56441200507067 /* Views */,
+				7775CF492A563E0500507067 /* utils */,
+				7775CF3C2A563A0900507067 /* Back */,
+				7775CF222A56355C00507067 /* Helpers */,
+				7775CF212A56351B00507067 /* Assets */,
+				7775CEF12A56337600507067 /* AppDelegate.swift */,
+				7775CEF52A56337600507067 /* ViewController.swift */,
+				7775CEFC2A56337800507067 /* LaunchScreen.storyboard */,
+				7775CEFF2A56337800507067 /* Info.plist */,
+				7775CF252A5636D400507067 /* GoogleService-Info.plist */,
+			);
+			path = BloodyBus;
+			sourceTree = "<group>";
+		};
+		7775CF072A56337800507067 /* BloodyBusTests */ = {
+			isa = PBXGroup;
+			children = (
+				7775CF082A56337800507067 /* BloodyBusTests.swift */,
+			);
+			path = BloodyBusTests;
+			sourceTree = "<group>";
+		};
+		7775CF112A56337800507067 /* BloodyBusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7775CF122A56337800507067 /* BloodyBusUITests.swift */,
+				7775CF142A56337800507067 /* BloodyBusUITestsLaunchTests.swift */,
+			);
+			path = BloodyBusUITests;
+			sourceTree = "<group>";
+		};
+		7775CF212A56351B00507067 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7775CEFA2A56337800507067 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7775CF222A56355C00507067 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7775CF232A56356C00507067 /* UIView+StackView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7775CF3C2A563A0900507067 /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				7775CF422A563BAE00507067 /* Data */,
+				7775CF3D2A563A1300507067 /* Domain */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		7775CF3D2A563A1300507067 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				7775CF412A563BA000507067 /* Entities */,
+				7775CF3E2A563A3F00507067 /* Services */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		7775CF3E2A563A3F00507067 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7775CF3F2A563A5800507067 /* Login+RegisterService.swift */,
+				7775CF592A56402A00507067 /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7775CF412A563BA000507067 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				7775CF572A563FED00507067 /* UserEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		7775CF422A563BAE00507067 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7775CF442A563BC200507067 /* Models */,
+				7775CF432A563BB700507067 /* Respository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7775CF432A563BB700507067 /* Respository */ = {
+			isa = PBXGroup;
+			children = (
+				7775CF472A563D3B00507067 /* UserRepository.swift */,
+			);
+			path = Respository;
+			sourceTree = "<group>";
+		};
+		7775CF442A563BC200507067 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7775CF452A563CFF00507067 /* UserModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7775CF492A563E0500507067 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				7775CF4A2A563E1000507067 /* Errors.swift */,
+				7775CF4C2A563E4D00507067 /* StringExtension.swift */,
+				7775CF532A563EBC00507067 /* UserSettings.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		7775CF5B2A56441200507067 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7775CF5C2A56443B00507067 /* MainViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7775CEED2A56337600507067 /* BloodyBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7775CF182A56337800507067 /* Build configuration list for PBXNativeTarget "BloodyBus" */;
+			buildPhases = (
+				7775CEEA2A56337600507067 /* Sources */,
+				7775CEEB2A56337600507067 /* Frameworks */,
+				7775CEEC2A56337600507067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloodyBus;
+			packageProductDependencies = (
+				7775CF282A56377E00507067 /* FirebaseAnalytics */,
+				7775CF2A2A56377E00507067 /* FirebaseAnalyticsSwift */,
+				7775CF2C2A56377E00507067 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				7775CF2E2A56377E00507067 /* FirebaseAuth */,
+				7775CF302A56377E00507067 /* FirebaseDatabase */,
+				7775CF322A56377E00507067 /* FirebaseDatabaseSwift */,
+				7775CF342A56377E00507067 /* FirebaseFirestore */,
+				7775CF362A56377E00507067 /* FirebaseFirestoreSwift */,
+				7775CF382A56377E00507067 /* FirebasePerformance */,
+				7775CF3A2A56377E00507067 /* FirebaseStorage */,
+			);
+			productName = BloodyBus;
+			productReference = 7775CEEE2A56337600507067 /* BloodyBus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7775CF032A56337800507067 /* BloodyBusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7775CF1B2A56337800507067 /* Build configuration list for PBXNativeTarget "BloodyBusTests" */;
+			buildPhases = (
+				7775CF002A56337800507067 /* Sources */,
+				7775CF012A56337800507067 /* Frameworks */,
+				7775CF022A56337800507067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7775CF062A56337800507067 /* PBXTargetDependency */,
+			);
+			name = BloodyBusTests;
+			productName = BloodyBusTests;
+			productReference = 7775CF042A56337800507067 /* BloodyBusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7775CF0D2A56337800507067 /* BloodyBusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7775CF1E2A56337800507067 /* Build configuration list for PBXNativeTarget "BloodyBusUITests" */;
+			buildPhases = (
+				7775CF0A2A56337800507067 /* Sources */,
+				7775CF0B2A56337800507067 /* Frameworks */,
+				7775CF0C2A56337800507067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7775CF102A56337800507067 /* PBXTargetDependency */,
+			);
+			name = BloodyBusUITests;
+			productName = BloodyBusUITests;
+			productReference = 7775CF0E2A56337800507067 /* BloodyBusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7775CEE62A56337600507067 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7775CEED2A56337600507067 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					7775CF032A56337800507067 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7775CEED2A56337600507067;
+					};
+					7775CF0D2A56337800507067 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7775CEED2A56337600507067;
+					};
+				};
+			};
+			buildConfigurationList = 7775CEE92A56337600507067 /* Build configuration list for PBXProject "BloodyBus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7775CEE52A56337600507067;
+			packageReferences = (
+				7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 7775CEEF2A56337600507067 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7775CEED2A56337600507067 /* BloodyBus */,
+				7775CF032A56337800507067 /* BloodyBusTests */,
+				7775CF0D2A56337800507067 /* BloodyBusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7775CEEC2A56337600507067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7775CEFE2A56337800507067 /* LaunchScreen.storyboard in Resources */,
+				7775CF502A563E7800507067 /* Localizable.strings in Resources */,
+				7775CF562A563F5A00507067 /* Settings.bundle in Resources */,
+				7775CEFB2A56337800507067 /* Assets.xcassets in Resources */,
+				7775CF262A5636D500507067 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7775CF022A56337800507067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7775CF0C2A56337800507067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7775CEEA2A56337600507067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7775CF402A563A5800507067 /* Login+RegisterService.swift in Sources */,
+				7775CF462A563CFF00507067 /* UserModels.swift in Sources */,
+				7775CF482A563D3B00507067 /* UserRepository.swift in Sources */,
+				7775CF5D2A56443B00507067 /* MainViewController.swift in Sources */,
+				7775CF582A563FED00507067 /* UserEntity.swift in Sources */,
+				7775CEF62A56337600507067 /* ViewController.swift in Sources */,
+				7775CF542A563EBC00507067 /* UserSettings.swift in Sources */,
+				7775CF5A2A56402A00507067 /* UserService.swift in Sources */,
+				7775CF4D2A563E4D00507067 /* StringExtension.swift in Sources */,
+				7775CEF22A56337600507067 /* AppDelegate.swift in Sources */,
+				7775CF242A56356C00507067 /* UIView+StackView.swift in Sources */,
+				7775CF4B2A563E1000507067 /* Errors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7775CF002A56337800507067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7775CF092A56337800507067 /* BloodyBusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7775CF0A2A56337800507067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7775CF152A56337800507067 /* BloodyBusUITestsLaunchTests.swift in Sources */,
+				7775CF132A56337800507067 /* BloodyBusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7775CF062A56337800507067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7775CEED2A56337600507067 /* BloodyBus */;
+			targetProxy = 7775CF052A56337800507067 /* PBXContainerItemProxy */;
+		};
+		7775CF102A56337800507067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7775CEED2A56337600507067 /* BloodyBus */;
+			targetProxy = 7775CF0F2A56337800507067 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7775CEFC2A56337800507067 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7775CEFD2A56337800507067 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7775CF522A563E7800507067 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7775CF512A563E7800507067 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7775CF162A56337800507067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7775CF172A56337800507067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7775CF192A56337800507067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78XA6V5NGS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BloodyBus/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bloodybus.BloodyBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7775CF1A2A56337800507067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78XA6V5NGS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BloodyBus/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bloodybus.BloodyBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7775CF1C2A56337800507067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78XA6V5NGS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bloodybus.BloodyBusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodyBus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BloodyBus";
+			};
+			name = Debug;
+		};
+		7775CF1D2A56337800507067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78XA6V5NGS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bloodybus.BloodyBusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodyBus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BloodyBus";
+			};
+			name = Release;
+		};
+		7775CF1F2A56337800507067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78XA6V5NGS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bloodybus.BloodyBusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BloodyBus;
+			};
+			name = Debug;
+		};
+		7775CF202A56337800507067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78XA6V5NGS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bloodybus.BloodyBusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BloodyBus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7775CEE92A56337600507067 /* Build configuration list for PBXProject "BloodyBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7775CF162A56337800507067 /* Debug */,
+				7775CF172A56337800507067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7775CF182A56337800507067 /* Build configuration list for PBXNativeTarget "BloodyBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7775CF192A56337800507067 /* Debug */,
+				7775CF1A2A56337800507067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7775CF1B2A56337800507067 /* Build configuration list for PBXNativeTarget "BloodyBusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7775CF1C2A56337800507067 /* Debug */,
+				7775CF1D2A56337800507067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7775CF1E2A56337800507067 /* Build configuration list for PBXNativeTarget "BloodyBusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7775CF1F2A56337800507067 /* Debug */,
+				7775CF202A56337800507067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7775CF282A56377E00507067 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		7775CF2A2A56377E00507067 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		7775CF2C2A56377E00507067 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		7775CF2E2A56377E00507067 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7775CF302A56377E00507067 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		7775CF322A56377E00507067 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		7775CF342A56377E00507067 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		7775CF362A56377E00507067 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		7775CF382A56377E00507067 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		7775CF3A2A56377E00507067 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7775CEE62A56337600507067 /* Project object */;
+}
