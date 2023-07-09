@@ -5,3 +5,17 @@
   Created by Alexandre Josien on 06/07/2023.
   
 */
+
+"main.tab.bus"="Bus";
+"main.tab.me"="Me";
+
+"me.title"="Me";
+"me.stat.birth"="Birth date: ";
+"me.stat.sessioncount"="Number of session: ";
+
+"me.section.account"="Account";
+"me.row.account"="Account";
+
+"bus.title"="Bus";
+
+

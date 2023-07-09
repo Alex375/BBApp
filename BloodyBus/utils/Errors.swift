@@ -37,7 +37,7 @@ enum UserRepositoryError: Error, LocalizedError
 enum SessionRepositoryError: Error, LocalizedError
 {
     case GetSessionFailed
-    case GetTeamFailed
+    case GetSlotFailed
     case GetPersonFailed
     case CreateSessionFailed
     case CreatePersonFailed
@@ -48,7 +48,7 @@ enum SessionRepositoryError: Error, LocalizedError
             switch self
             {
             case .GetSessionFailed: return "Couldn't load session because the document was null.".localized
-            case .GetTeamFailed: return "Couldn't load teams because the document was null.".localized
+            case .GetSlotFailed: return "Couldn't load slot because the document was null.".localized
             case .GetPersonFailed: return "Couldn't load participants because the document was null.".localized
             case .CreateSessionFailed: return "Couldn't create session because the document was null.".localized
             case .CreatePersonFailed: return "Couldn't create person because the document was null.".localized

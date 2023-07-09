@@ -37,6 +37,23 @@
 		7775CF582A563FED00507067 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF572A563FED00507067 /* UserEntity.swift */; };
 		7775CF5A2A56402A00507067 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF592A56402A00507067 /* UserService.swift */; };
 		7775CF5D2A56443B00507067 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF5C2A56443B00507067 /* MainViewController.swift */; };
+		777C213C2A5719030000E84A /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C213B2A5719030000E84A /* UserManager.swift */; };
+		777C213E2A571A2F0000E84A /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C213D2A571A2F0000E84A /* MainTableViewController.swift */; };
+		777C21402A571C2A0000E84A /* MeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C213F2A571C2A0000E84A /* MeTableViewController.swift */; };
+		777C21422A5720EB0000E84A /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C21412A5720EB0000E84A /* Alerts.swift */; };
+		777C21462A5871F00000E84A /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C21452A5871F00000E84A /* ProfilView.swift */; };
+		777C21482A5872690000E84A /* StatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C21472A5872690000E84A /* StatView.swift */; };
+		777C214A2A5873100000E84A /* MeTableViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C21492A5873100000E84A /* MeTableViewProvider.swift */; };
+		777C214C2A5873620000E84A /* ProfilTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C214B2A5873620000E84A /* ProfilTableViewCell.swift */; };
+		777C214E2A5873780000E84A /* StatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C214D2A5873780000E84A /* StatTableViewCell.swift */; };
+		777C21502A5B43AC0000E84A /* SessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C214F2A5B43AC0000E84A /* SessionModel.swift */; };
+		777C21522A5B441C0000E84A /* GeoPointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C21512A5B441C0000E84A /* GeoPointModel.swift */; };
+		777C21542A5B49970000E84A /* SessionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C21532A5B49970000E84A /* SessionRepository.swift */; };
+		777C21562A5B4A250000E84A /* SlotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C21552A5B4A250000E84A /* SlotModel.swift */; };
+		777C21582A5B4C760000E84A /* SessionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C21572A5B4C760000E84A /* SessionEntity.swift */; };
+		777C215A2A5B4D450000E84A /* GeoPointEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C21592A5B4D450000E84A /* GeoPointEntity.swift */; };
+		777C215C2A5B4FFC0000E84A /* SlotEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C215B2A5B4FFC0000E84A /* SlotEntity.swift */; };
+		777C215E2A5B524E0000E84A /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C215D2A5B524E0000E84A /* SessionService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +98,23 @@
 		7775CF572A563FED00507067 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
 		7775CF592A56402A00507067 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		7775CF5C2A56443B00507067 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		777C213B2A5719030000E84A /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		777C213D2A571A2F0000E84A /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		777C213F2A571C2A0000E84A /* MeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeTableViewController.swift; sourceTree = "<group>"; };
+		777C21412A5720EB0000E84A /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		777C21452A5871F00000E84A /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
+		777C21472A5872690000E84A /* StatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatView.swift; sourceTree = "<group>"; };
+		777C21492A5873100000E84A /* MeTableViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeTableViewProvider.swift; sourceTree = "<group>"; };
+		777C214B2A5873620000E84A /* ProfilTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilTableViewCell.swift; sourceTree = "<group>"; };
+		777C214D2A5873780000E84A /* StatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatTableViewCell.swift; sourceTree = "<group>"; };
+		777C214F2A5B43AC0000E84A /* SessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionModel.swift; sourceTree = "<group>"; };
+		777C21512A5B441C0000E84A /* GeoPointModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoPointModel.swift; sourceTree = "<group>"; };
+		777C21532A5B49970000E84A /* SessionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRepository.swift; sourceTree = "<group>"; };
+		777C21552A5B4A250000E84A /* SlotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotModel.swift; sourceTree = "<group>"; };
+		777C21572A5B4C760000E84A /* SessionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionEntity.swift; sourceTree = "<group>"; };
+		777C21592A5B4D450000E84A /* GeoPointEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoPointEntity.swift; sourceTree = "<group>"; };
+		777C215B2A5B4FFC0000E84A /* SlotEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotEntity.swift; sourceTree = "<group>"; };
+		777C215D2A5B524E0000E84A /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +227,7 @@
 		7775CF3C2A563A0900507067 /* Back */ = {
 			isa = PBXGroup;
 			children = (
+				777C213A2A5718ED0000E84A /* UserManager */,
 				7775CF422A563BAE00507067 /* Data */,
 				7775CF3D2A563A1300507067 /* Domain */,
 			);
@@ -213,6 +248,7 @@
 			children = (
 				7775CF3F2A563A5800507067 /* Login+RegisterService.swift */,
 				7775CF592A56402A00507067 /* UserService.swift */,
+				777C215D2A5B524E0000E84A /* SessionService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -221,6 +257,9 @@
 			isa = PBXGroup;
 			children = (
 				7775CF572A563FED00507067 /* UserEntity.swift */,
+				777C21572A5B4C760000E84A /* SessionEntity.swift */,
+				777C21592A5B4D450000E84A /* GeoPointEntity.swift */,
+				777C215B2A5B4FFC0000E84A /* SlotEntity.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -238,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				7775CF472A563D3B00507067 /* UserRepository.swift */,
+				777C21532A5B49970000E84A /* SessionRepository.swift */,
 			);
 			path = Respository;
 			sourceTree = "<group>";
@@ -246,6 +286,9 @@
 			isa = PBXGroup;
 			children = (
 				7775CF452A563CFF00507067 /* UserModels.swift */,
+				777C214F2A5B43AC0000E84A /* SessionModel.swift */,
+				777C21512A5B441C0000E84A /* GeoPointModel.swift */,
+				777C21552A5B4A250000E84A /* SlotModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -256,6 +299,7 @@
 				7775CF4A2A563E1000507067 /* Errors.swift */,
 				7775CF4C2A563E4D00507067 /* StringExtension.swift */,
 				7775CF532A563EBC00507067 /* UserSettings.swift */,
+				777C21412A5720EB0000E84A /* Alerts.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -263,9 +307,40 @@
 		7775CF5B2A56441200507067 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				777C21432A58714F0000E84A /* MeViews */,
 				7775CF5C2A56443B00507067 /* MainViewController.swift */,
+				777C213D2A571A2F0000E84A /* MainTableViewController.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		777C213A2A5718ED0000E84A /* UserManager */ = {
+			isa = PBXGroup;
+			children = (
+				777C213B2A5719030000E84A /* UserManager.swift */,
+			);
+			path = UserManager;
+			sourceTree = "<group>";
+		};
+		777C21432A58714F0000E84A /* MeViews */ = {
+			isa = PBXGroup;
+			children = (
+				777C21442A5871D70000E84A /* Cells */,
+				777C213F2A571C2A0000E84A /* MeTableViewController.swift */,
+				777C21492A5873100000E84A /* MeTableViewProvider.swift */,
+			);
+			path = MeViews;
+			sourceTree = "<group>";
+		};
+		777C21442A5871D70000E84A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				777C21452A5871F00000E84A /* ProfilView.swift */,
+				777C21472A5872690000E84A /* StatView.swift */,
+				777C214B2A5873620000E84A /* ProfilTableViewCell.swift */,
+				777C214D2A5873780000E84A /* StatTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -417,17 +492,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				7775CF402A563A5800507067 /* Login+RegisterService.swift in Sources */,
+				777C214A2A5873100000E84A /* MeTableViewProvider.swift in Sources */,
 				7775CF462A563CFF00507067 /* UserModels.swift in Sources */,
+				777C214C2A5873620000E84A /* ProfilTableViewCell.swift in Sources */,
+				777C21422A5720EB0000E84A /* Alerts.swift in Sources */,
 				7775CF482A563D3B00507067 /* UserRepository.swift in Sources */,
+				777C21502A5B43AC0000E84A /* SessionModel.swift in Sources */,
+				777C21562A5B4A250000E84A /* SlotModel.swift in Sources */,
+				777C213C2A5719030000E84A /* UserManager.swift in Sources */,
 				7775CF5D2A56443B00507067 /* MainViewController.swift in Sources */,
 				7775CF582A563FED00507067 /* UserEntity.swift in Sources */,
+				777C213E2A571A2F0000E84A /* MainTableViewController.swift in Sources */,
+				777C214E2A5873780000E84A /* StatTableViewCell.swift in Sources */,
 				7775CEF62A56337600507067 /* ViewController.swift in Sources */,
 				7775CF542A563EBC00507067 /* UserSettings.swift in Sources */,
+				777C21582A5B4C760000E84A /* SessionEntity.swift in Sources */,
+				777C21462A5871F00000E84A /* ProfilView.swift in Sources */,
+				777C215E2A5B524E0000E84A /* SessionService.swift in Sources */,
 				7775CF5A2A56402A00507067 /* UserService.swift in Sources */,
+				777C215A2A5B4D450000E84A /* GeoPointEntity.swift in Sources */,
+				777C21482A5872690000E84A /* StatView.swift in Sources */,
 				7775CF4D2A563E4D00507067 /* StringExtension.swift in Sources */,
+				777C21402A571C2A0000E84A /* MeTableViewController.swift in Sources */,
 				7775CEF22A56337600507067 /* AppDelegate.swift in Sources */,
 				7775CF242A56356C00507067 /* UIView+StackView.swift in Sources */,
 				7775CF4B2A563E1000507067 /* Errors.swift in Sources */,
+				777C21542A5B49970000E84A /* SessionRepository.swift in Sources */,
+				777C215C2A5B4FFC0000E84A /* SlotEntity.swift in Sources */,
+				777C21522A5B441C0000E84A /* GeoPointModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
