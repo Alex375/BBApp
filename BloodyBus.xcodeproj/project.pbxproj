@@ -16,16 +16,6 @@
 		7775CF152A56337800507067 /* BloodyBusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF142A56337800507067 /* BloodyBusUITestsLaunchTests.swift */; };
 		7775CF242A56356C00507067 /* UIView+StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF232A56356C00507067 /* UIView+StackView.swift */; };
 		7775CF262A5636D500507067 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7775CF252A5636D400507067 /* GoogleService-Info.plist */; };
-		7775CF292A56377E00507067 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF282A56377E00507067 /* FirebaseAnalytics */; };
-		7775CF2B2A56377E00507067 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF2A2A56377E00507067 /* FirebaseAnalyticsSwift */; };
-		7775CF2D2A56377E00507067 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF2C2A56377E00507067 /* FirebaseAnalyticsWithoutAdIdSupport */; };
-		7775CF2F2A56377E00507067 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF2E2A56377E00507067 /* FirebaseAuth */; };
-		7775CF312A56377E00507067 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF302A56377E00507067 /* FirebaseDatabase */; };
-		7775CF332A56377E00507067 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF322A56377E00507067 /* FirebaseDatabaseSwift */; };
-		7775CF352A56377E00507067 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF342A56377E00507067 /* FirebaseFirestore */; };
-		7775CF372A56377E00507067 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF362A56377E00507067 /* FirebaseFirestoreSwift */; };
-		7775CF392A56377E00507067 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF382A56377E00507067 /* FirebasePerformance */; };
-		7775CF3B2A56377E00507067 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7775CF3A2A56377E00507067 /* FirebaseStorage */; };
 		7775CF402A563A5800507067 /* Login+RegisterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF3F2A563A5800507067 /* Login+RegisterService.swift */; };
 		7775CF462A563CFF00507067 /* UserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF452A563CFF00507067 /* UserModels.swift */; };
 		7775CF482A563D3B00507067 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CF472A563D3B00507067 /* UserRepository.swift */; };
@@ -54,6 +44,37 @@
 		777C215A2A5B4D450000E84A /* GeoPointEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C21592A5B4D450000E84A /* GeoPointEntity.swift */; };
 		777C215C2A5B4FFC0000E84A /* SlotEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C215B2A5B4FFC0000E84A /* SlotEntity.swift */; };
 		777C215E2A5B524E0000E84A /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C215D2A5B524E0000E84A /* SessionService.swift */; };
+		77AC9E372A5C7FDC00AE35B5 /* FindMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AC9E362A5C7FDC00AE35B5 /* FindMapViewController.swift */; };
+		77AC9E392A5C800D00AE35B5 /* FindMapButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AC9E382A5C800D00AE35B5 /* FindMapButtons.swift */; };
+		77AC9E3D2A5C841400AE35B5 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 77AC9E3C2A5C841400AE35B5 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		77AC9E3F2A5C841400AE35B5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 77AC9E3E2A5C841400AE35B5 /* FirebaseAuth */; };
+		77AC9E412A5C841400AE35B5 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 77AC9E402A5C841400AE35B5 /* FirebaseDatabase */; };
+		77AC9E432A5C841400AE35B5 /* FirebaseDatabaseSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 77AC9E422A5C841400AE35B5 /* FirebaseDatabaseSwift-Beta */; };
+		77AC9E452A5C841400AE35B5 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = 77AC9E442A5C841400AE35B5 /* FirebaseDynamicLinks */; };
+		77AC9E472A5C841400AE35B5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 77AC9E462A5C841400AE35B5 /* FirebaseFirestore */; };
+		77AC9E492A5C841400AE35B5 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 77AC9E482A5C841400AE35B5 /* FirebaseFirestoreCombine-Community */; };
+		77AC9E4B2A5C841400AE35B5 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 77AC9E4A2A5C841400AE35B5 /* FirebaseFirestoreSwift-Beta */; };
+		77AC9E4D2A5C841400AE35B5 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 77AC9E4C2A5C841400AE35B5 /* FirebaseStorage */; };
+		77AC9E502A5C844A00AE35B5 /* GeoFire in Frameworks */ = {isa = PBXBuildFile; productRef = 77AC9E4F2A5C844A00AE35B5 /* GeoFire */; };
+		77AC9E522A5C844A00AE35B5 /* GeoFireUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 77AC9E512A5C844A00AE35B5 /* GeoFireUtils */; };
+		77AC9E542A5CBDB300AE35B5 /* SessionAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AC9E532A5CBDB300AE35B5 /* SessionAnnotation.swift */; };
+		77AC9E562A5D89A800AE35B5 /* FindDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AC9E552A5D89A800AE35B5 /* FindDetailTableViewController.swift */; };
+		77AC9E582A5D8ABF00AE35B5 /* DonationTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AC9E572A5D8ABF00AE35B5 /* DonationTypeTableViewCell.swift */; };
+		77AC9E5C2A5DA3E500AE35B5 /* SlotChoosingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AC9E5B2A5DA3E500AE35B5 /* SlotChoosingTableViewController.swift */; };
+		77AC9E5F2A5EBD5500AE35B5 /* DetailInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AC9E5E2A5EBD5500AE35B5 /* DetailInfoView.swift */; };
+		77AC9E612A5EBD9A00AE35B5 /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AC9E602A5EBD9A00AE35B5 /* DetailHeaderView.swift */; };
+		77AC9E632A5EBE2200AE35B5 /* DetailInfoViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AC9E622A5EBE2200AE35B5 /* DetailInfoViewButton.swift */; };
+		77AC9E652A5EBE4500AE35B5 /* MapInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AC9E642A5EBE4500AE35B5 /* MapInfoView.swift */; };
+		77AC9E672A5EBE9500AE35B5 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AC9E662A5EBE9500AE35B5 /* Artwork.swift */; };
+		77AC9E692A5EBF3000AE35B5 /* DetailSlotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AC9E682A5EBF3000AE35B5 /* DetailSlotViewController.swift */; };
+		77E99ADE2A5C620D005770C9 /* UserSlotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E99ADD2A5C620D005770C9 /* UserSlotModel.swift */; };
+		77E99AE02A5C6372005770C9 /* UserSlotEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E99ADF2A5C6372005770C9 /* UserSlotEntity.swift */; };
+		77E99AE22A5C68A7005770C9 /* DonationTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E99AE12A5C68A7005770C9 /* DonationTypes.swift */; };
+		77E99AE52A5C6A58005770C9 /* UserSotProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E99AE42A5C6A58005770C9 /* UserSotProvider.swift */; };
+		77E99AE72A5C6AD9005770C9 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E99AE62A5C6AD9005770C9 /* DateExtension.swift */; };
+		77E99AEA2A5C6BD5005770C9 /* SlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E99AE92A5C6BD5005770C9 /* SlotView.swift */; };
+		77E99AEC2A5C6C90005770C9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E99AEB2A5C6C90005770C9 /* Colors.xcassets */; };
+		77E99AEE2A5C6CDB005770C9 /* SlotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E99AED2A5C6CDB005770C9 /* SlotTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +136,27 @@
 		777C21592A5B4D450000E84A /* GeoPointEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoPointEntity.swift; sourceTree = "<group>"; };
 		777C215B2A5B4FFC0000E84A /* SlotEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotEntity.swift; sourceTree = "<group>"; };
 		777C215D2A5B524E0000E84A /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
+		77AC9E362A5C7FDC00AE35B5 /* FindMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMapViewController.swift; sourceTree = "<group>"; };
+		77AC9E382A5C800D00AE35B5 /* FindMapButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMapButtons.swift; sourceTree = "<group>"; };
+		77AC9E532A5CBDB300AE35B5 /* SessionAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionAnnotation.swift; sourceTree = "<group>"; };
+		77AC9E552A5D89A800AE35B5 /* FindDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDetailTableViewController.swift; sourceTree = "<group>"; };
+		77AC9E572A5D8ABF00AE35B5 /* DonationTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationTypeTableViewCell.swift; sourceTree = "<group>"; };
+		77AC9E5B2A5DA3E500AE35B5 /* SlotChoosingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotChoosingTableViewController.swift; sourceTree = "<group>"; };
+		77AC9E5E2A5EBD5500AE35B5 /* DetailInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfoView.swift; sourceTree = "<group>"; };
+		77AC9E602A5EBD9A00AE35B5 /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
+		77AC9E622A5EBE2200AE35B5 /* DetailInfoViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfoViewButton.swift; sourceTree = "<group>"; };
+		77AC9E642A5EBE4500AE35B5 /* MapInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInfoView.swift; sourceTree = "<group>"; };
+		77AC9E662A5EBE9500AE35B5 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		77AC9E682A5EBF3000AE35B5 /* DetailSlotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSlotViewController.swift; sourceTree = "<group>"; };
+		77D9ED8E2A5EDC5400E274AE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		77E99ADD2A5C620D005770C9 /* UserSlotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSlotModel.swift; sourceTree = "<group>"; };
+		77E99ADF2A5C6372005770C9 /* UserSlotEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSlotEntity.swift; sourceTree = "<group>"; };
+		77E99AE12A5C68A7005770C9 /* DonationTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationTypes.swift; sourceTree = "<group>"; };
+		77E99AE42A5C6A58005770C9 /* UserSotProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSotProvider.swift; sourceTree = "<group>"; };
+		77E99AE62A5C6AD9005770C9 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		77E99AE92A5C6BD5005770C9 /* SlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotView.swift; sourceTree = "<group>"; };
+		77E99AEB2A5C6C90005770C9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		77E99AED2A5C6CDB005770C9 /* SlotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,16 +164,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7775CF332A56377E00507067 /* FirebaseDatabaseSwift in Frameworks */,
-				7775CF312A56377E00507067 /* FirebaseDatabase in Frameworks */,
-				7775CF392A56377E00507067 /* FirebasePerformance in Frameworks */,
-				7775CF3B2A56377E00507067 /* FirebaseStorage in Frameworks */,
-				7775CF2B2A56377E00507067 /* FirebaseAnalyticsSwift in Frameworks */,
-				7775CF2D2A56377E00507067 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
-				7775CF292A56377E00507067 /* FirebaseAnalytics in Frameworks */,
-				7775CF2F2A56377E00507067 /* FirebaseAuth in Frameworks */,
-				7775CF352A56377E00507067 /* FirebaseFirestore in Frameworks */,
-				7775CF372A56377E00507067 /* FirebaseFirestoreSwift in Frameworks */,
+				77AC9E412A5C841400AE35B5 /* FirebaseDatabase in Frameworks */,
+				77AC9E3D2A5C841400AE35B5 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				77AC9E4D2A5C841400AE35B5 /* FirebaseStorage in Frameworks */,
+				77AC9E432A5C841400AE35B5 /* FirebaseDatabaseSwift-Beta in Frameworks */,
+				77AC9E502A5C844A00AE35B5 /* GeoFire in Frameworks */,
+				77AC9E3F2A5C841400AE35B5 /* FirebaseAuth in Frameworks */,
+				77AC9E452A5C841400AE35B5 /* FirebaseDynamicLinks in Frameworks */,
+				77AC9E4B2A5C841400AE35B5 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				77AC9E522A5C844A00AE35B5 /* GeoFireUtils in Frameworks */,
+				77AC9E472A5C841400AE35B5 /* FirebaseFirestore in Frameworks */,
+				77AC9E492A5C841400AE35B5 /* FirebaseFirestoreCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				7775CEFA2A56337800507067 /* Assets.xcassets */,
+				77E99AEB2A5C6C90005770C9 /* Colors.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -260,6 +304,7 @@
 				777C21572A5B4C760000E84A /* SessionEntity.swift */,
 				777C21592A5B4D450000E84A /* GeoPointEntity.swift */,
 				777C215B2A5B4FFC0000E84A /* SlotEntity.swift */,
+				77E99ADF2A5C6372005770C9 /* UserSlotEntity.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -289,6 +334,7 @@
 				777C214F2A5B43AC0000E84A /* SessionModel.swift */,
 				777C21512A5B441C0000E84A /* GeoPointModel.swift */,
 				777C21552A5B4A250000E84A /* SlotModel.swift */,
+				77E99ADD2A5C620D005770C9 /* UserSlotModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -300,6 +346,9 @@
 				7775CF4C2A563E4D00507067 /* StringExtension.swift */,
 				7775CF532A563EBC00507067 /* UserSettings.swift */,
 				777C21412A5720EB0000E84A /* Alerts.swift */,
+				77E99AE12A5C68A7005770C9 /* DonationTypes.swift */,
+				77E99AE62A5C6AD9005770C9 /* DateExtension.swift */,
+				77AC9E662A5EBE9500AE35B5 /* Artwork.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -307,9 +356,11 @@
 		7775CF5B2A56441200507067 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				77AC9E5D2A5EBD2600AE35B5 /* DetailsSlots */,
+				77AC9E352A5C7F2700AE35B5 /* FindViews */,
+				77E99AE32A5C6A49005770C9 /* SlotsViews */,
 				777C21432A58714F0000E84A /* MeViews */,
 				7775CF5C2A56443B00507067 /* MainViewController.swift */,
-				777C213D2A571A2F0000E84A /* MainTableViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -343,6 +394,50 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		77AC9E352A5C7F2700AE35B5 /* FindViews */ = {
+			isa = PBXGroup;
+			children = (
+				77AC9E362A5C7FDC00AE35B5 /* FindMapViewController.swift */,
+				77AC9E382A5C800D00AE35B5 /* FindMapButtons.swift */,
+				77AC9E532A5CBDB300AE35B5 /* SessionAnnotation.swift */,
+				77AC9E552A5D89A800AE35B5 /* FindDetailTableViewController.swift */,
+				77AC9E572A5D8ABF00AE35B5 /* DonationTypeTableViewCell.swift */,
+				77AC9E5B2A5DA3E500AE35B5 /* SlotChoosingTableViewController.swift */,
+			);
+			path = FindViews;
+			sourceTree = "<group>";
+		};
+		77AC9E5D2A5EBD2600AE35B5 /* DetailsSlots */ = {
+			isa = PBXGroup;
+			children = (
+				77AC9E5E2A5EBD5500AE35B5 /* DetailInfoView.swift */,
+				77AC9E602A5EBD9A00AE35B5 /* DetailHeaderView.swift */,
+				77AC9E622A5EBE2200AE35B5 /* DetailInfoViewButton.swift */,
+				77AC9E642A5EBE4500AE35B5 /* MapInfoView.swift */,
+				77AC9E682A5EBF3000AE35B5 /* DetailSlotViewController.swift */,
+			);
+			path = DetailsSlots;
+			sourceTree = "<group>";
+		};
+		77E99AE32A5C6A49005770C9 /* SlotsViews */ = {
+			isa = PBXGroup;
+			children = (
+				77E99AE82A5C6BCA005770C9 /* Cell */,
+				777C213D2A571A2F0000E84A /* MainTableViewController.swift */,
+				77E99AE42A5C6A58005770C9 /* UserSotProvider.swift */,
+			);
+			path = SlotsViews;
+			sourceTree = "<group>";
+		};
+		77E99AE82A5C6BCA005770C9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				77E99AE92A5C6BD5005770C9 /* SlotView.swift */,
+				77E99AED2A5C6CDB005770C9 /* SlotTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -360,16 +455,17 @@
 			);
 			name = BloodyBus;
 			packageProductDependencies = (
-				7775CF282A56377E00507067 /* FirebaseAnalytics */,
-				7775CF2A2A56377E00507067 /* FirebaseAnalyticsSwift */,
-				7775CF2C2A56377E00507067 /* FirebaseAnalyticsWithoutAdIdSupport */,
-				7775CF2E2A56377E00507067 /* FirebaseAuth */,
-				7775CF302A56377E00507067 /* FirebaseDatabase */,
-				7775CF322A56377E00507067 /* FirebaseDatabaseSwift */,
-				7775CF342A56377E00507067 /* FirebaseFirestore */,
-				7775CF362A56377E00507067 /* FirebaseFirestoreSwift */,
-				7775CF382A56377E00507067 /* FirebasePerformance */,
-				7775CF3A2A56377E00507067 /* FirebaseStorage */,
+				77AC9E3C2A5C841400AE35B5 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				77AC9E3E2A5C841400AE35B5 /* FirebaseAuth */,
+				77AC9E402A5C841400AE35B5 /* FirebaseDatabase */,
+				77AC9E422A5C841400AE35B5 /* FirebaseDatabaseSwift-Beta */,
+				77AC9E442A5C841400AE35B5 /* FirebaseDynamicLinks */,
+				77AC9E462A5C841400AE35B5 /* FirebaseFirestore */,
+				77AC9E482A5C841400AE35B5 /* FirebaseFirestoreCombine-Community */,
+				77AC9E4A2A5C841400AE35B5 /* FirebaseFirestoreSwift-Beta */,
+				77AC9E4C2A5C841400AE35B5 /* FirebaseStorage */,
+				77AC9E4F2A5C844A00AE35B5 /* GeoFire */,
+				77AC9E512A5C844A00AE35B5 /* GeoFireUtils */,
 			);
 			productName = BloodyBus;
 			productReference = 7775CEEE2A56337600507067 /* BloodyBus.app */;
@@ -441,10 +537,12 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 7775CEE52A56337600507067;
 			packageReferences = (
-				7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				77AC9E3B2A5C841400AE35B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				77AC9E4E2A5C844A00AE35B5 /* XCRemoteSwiftPackageReference "geofire-objc" */,
 			);
 			productRefGroup = 7775CEEF2A56337600507067 /* Products */;
 			projectDirPath = "";
@@ -466,6 +564,7 @@
 				7775CF502A563E7800507067 /* Localizable.strings in Resources */,
 				7775CF562A563F5A00507067 /* Settings.bundle in Resources */,
 				7775CEFB2A56337800507067 /* Assets.xcassets in Resources */,
+				77E99AEC2A5C6C90005770C9 /* Colors.xcassets in Resources */,
 				7775CF262A5636D500507067 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,17 +590,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77E99AEA2A5C6BD5005770C9 /* SlotView.swift in Sources */,
 				7775CF402A563A5800507067 /* Login+RegisterService.swift in Sources */,
+				77E99AE72A5C6AD9005770C9 /* DateExtension.swift in Sources */,
 				777C214A2A5873100000E84A /* MeTableViewProvider.swift in Sources */,
 				7775CF462A563CFF00507067 /* UserModels.swift in Sources */,
 				777C214C2A5873620000E84A /* ProfilTableViewCell.swift in Sources */,
 				777C21422A5720EB0000E84A /* Alerts.swift in Sources */,
 				7775CF482A563D3B00507067 /* UserRepository.swift in Sources */,
 				777C21502A5B43AC0000E84A /* SessionModel.swift in Sources */,
+				77AC9E392A5C800D00AE35B5 /* FindMapButtons.swift in Sources */,
 				777C21562A5B4A250000E84A /* SlotModel.swift in Sources */,
 				777C213C2A5719030000E84A /* UserManager.swift in Sources */,
+				77AC9E612A5EBD9A00AE35B5 /* DetailHeaderView.swift in Sources */,
+				77E99AEE2A5C6CDB005770C9 /* SlotTableViewCell.swift in Sources */,
 				7775CF5D2A56443B00507067 /* MainViewController.swift in Sources */,
 				7775CF582A563FED00507067 /* UserEntity.swift in Sources */,
+				77AC9E672A5EBE9500AE35B5 /* Artwork.swift in Sources */,
+				77E99AE22A5C68A7005770C9 /* DonationTypes.swift in Sources */,
 				777C213E2A571A2F0000E84A /* MainTableViewController.swift in Sources */,
 				777C214E2A5873780000E84A /* StatTableViewCell.swift in Sources */,
 				7775CEF62A56337600507067 /* ViewController.swift in Sources */,
@@ -510,15 +616,27 @@
 				777C21462A5871F00000E84A /* ProfilView.swift in Sources */,
 				777C215E2A5B524E0000E84A /* SessionService.swift in Sources */,
 				7775CF5A2A56402A00507067 /* UserService.swift in Sources */,
+				77AC9E652A5EBE4500AE35B5 /* MapInfoView.swift in Sources */,
+				77AC9E542A5CBDB300AE35B5 /* SessionAnnotation.swift in Sources */,
 				777C215A2A5B4D450000E84A /* GeoPointEntity.swift in Sources */,
+				77AC9E692A5EBF3000AE35B5 /* DetailSlotViewController.swift in Sources */,
 				777C21482A5872690000E84A /* StatView.swift in Sources */,
+				77AC9E5C2A5DA3E500AE35B5 /* SlotChoosingTableViewController.swift in Sources */,
 				7775CF4D2A563E4D00507067 /* StringExtension.swift in Sources */,
 				777C21402A571C2A0000E84A /* MeTableViewController.swift in Sources */,
 				7775CEF22A56337600507067 /* AppDelegate.swift in Sources */,
+				77AC9E372A5C7FDC00AE35B5 /* FindMapViewController.swift in Sources */,
+				77E99AE52A5C6A58005770C9 /* UserSotProvider.swift in Sources */,
+				77AC9E582A5D8ABF00AE35B5 /* DonationTypeTableViewCell.swift in Sources */,
+				77E99AE02A5C6372005770C9 /* UserSlotEntity.swift in Sources */,
+				77AC9E562A5D89A800AE35B5 /* FindDetailTableViewController.swift in Sources */,
 				7775CF242A56356C00507067 /* UIView+StackView.swift in Sources */,
+				77AC9E5F2A5EBD5500AE35B5 /* DetailInfoView.swift in Sources */,
+				77AC9E632A5EBE2200AE35B5 /* DetailInfoViewButton.swift in Sources */,
 				7775CF4B2A563E1000507067 /* Errors.swift in Sources */,
 				777C21542A5B49970000E84A /* SessionRepository.swift in Sources */,
 				777C215C2A5B4FFC0000E84A /* SlotEntity.swift in Sources */,
+				77E99ADE2A5C620D005770C9 /* UserSlotModel.swift in Sources */,
 				777C21522A5B441C0000E84A /* GeoPointModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -568,6 +686,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7775CF512A563E7800507067 /* en */,
+				77D9ED8E2A5EDC5400E274AE /* fr */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -579,6 +698,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -639,6 +759,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -699,6 +820,8 @@
 				DEVELOPMENT_TEAM = 78XA6V5NGS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BloodyBus/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = location;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = location;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -729,6 +852,8 @@
 				DEVELOPMENT_TEAM = 78XA6V5NGS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BloodyBus/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = location;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = location;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -867,66 +992,80 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		77AC9E3B2A5C841400AE35B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.0.0;
+				kind = versionRange;
+				maximumVersion = 9.0.0;
+				minimumVersion = 7.0.0;
+			};
+		};
+		77AC9E4E2A5C844A00AE35B5 /* XCRemoteSwiftPackageReference "geofire-objc" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/geofire-objc.git";
+			requirement = {
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7775CF282A56377E00507067 /* FirebaseAnalytics */ = {
+		77AC9E3C2A5C841400AE35B5 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		7775CF2A2A56377E00507067 /* FirebaseAnalyticsSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsSwift;
-		};
-		7775CF2C2A56377E00507067 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 77AC9E3B2A5C841400AE35B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalyticsWithoutAdIdSupport;
 		};
-		7775CF2E2A56377E00507067 /* FirebaseAuth */ = {
+		77AC9E3E2A5C841400AE35B5 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 77AC9E3B2A5C841400AE35B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
 		};
-		7775CF302A56377E00507067 /* FirebaseDatabase */ = {
+		77AC9E402A5C841400AE35B5 /* FirebaseDatabase */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 77AC9E3B2A5C841400AE35B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseDatabase;
 		};
-		7775CF322A56377E00507067 /* FirebaseDatabaseSwift */ = {
+		77AC9E422A5C841400AE35B5 /* FirebaseDatabaseSwift-Beta */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabaseSwift;
+			package = 77AC9E3B2A5C841400AE35B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseDatabaseSwift-Beta";
 		};
-		7775CF342A56377E00507067 /* FirebaseFirestore */ = {
+		77AC9E442A5C841400AE35B5 /* FirebaseDynamicLinks */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 77AC9E3B2A5C841400AE35B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		77AC9E462A5C841400AE35B5 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77AC9E3B2A5C841400AE35B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
 		};
-		7775CF362A56377E00507067 /* FirebaseFirestoreSwift */ = {
+		77AC9E482A5C841400AE35B5 /* FirebaseFirestoreCombine-Community */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestoreSwift;
+			package = 77AC9E3B2A5C841400AE35B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
 		};
-		7775CF382A56377E00507067 /* FirebasePerformance */ = {
+		77AC9E4A2A5C841400AE35B5 /* FirebaseFirestoreSwift-Beta */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebasePerformance;
+			package = 77AC9E3B2A5C841400AE35B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
 		};
-		7775CF3A2A56377E00507067 /* FirebaseStorage */ = {
+		77AC9E4C2A5C841400AE35B5 /* FirebaseStorage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7775CF272A56377E00507067 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 77AC9E3B2A5C841400AE35B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		77AC9E4F2A5C844A00AE35B5 /* GeoFire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77AC9E4E2A5C844A00AE35B5 /* XCRemoteSwiftPackageReference "geofire-objc" */;
+			productName = GeoFire;
+		};
+		77AC9E512A5C844A00AE35B5 /* GeoFireUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77AC9E4E2A5C844A00AE35B5 /* XCRemoteSwiftPackageReference "geofire-objc" */;
+			productName = GeoFireUtils;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -103,7 +103,7 @@ class MeProvider
         }
         
         var description: String {
-            return "Devlopper settings"
+            return "Devloper settings"
         }
     }
     
@@ -122,19 +122,9 @@ class MeProvider
                 return cell
             case .Stat:
                 let cell = cell as! StatsTableViewCell
-                cell.statView.sessions = "0"
+                cell.statView.sessions = "157"
                 
-                guard let date = target.user?.birthDate.dateValue() else {
-                    cell.statView.birth = "Unknown"
-                    return cell
-                }
-                
-                let dateFormatter = DateFormatter()
-                dateFormatter.timeZone = TimeZone(abbreviation: "GMT")
-                dateFormatter.locale = NSLocale.current
-                dateFormatter.dateFormat = "dd MMM YYYY"
-                let dateFormated = dateFormatter.string(from: date)
-                cell.statView.birth = dateFormated
+                cell.statView.birth = String(target.user?.slots.count ?? 0)
                 return cell
             case .none:
                  return cell

@@ -6,16 +6,31 @@
   
 */
 
-"main.tab.bus"="Bus";
+"main.tab.find"="Find";
+"slots.title"="Appointment";
+"main.tab.session"="Appointment";
 "main.tab.me"="Me";
 
 "me.title"="Me";
-"me.stat.birth"="Birth date: ";
+"me.stat.bloodycoins"="BloodyCoin: ";
 "me.stat.sessioncount"="Number of session: ";
 
 "me.section.account"="Account";
 "me.row.account"="Account";
 
-"bus.title"="Bus";
+"find.title"="Find";
+
+"slot.title"="Appointment";
 
 
+"slot.tv.section.soon.title"="Soon";
+"slot.tv.section.upcoming.title"="Upcoming";
+"slot.tv.section.passed.title"="Passed";
+
+
+"session.detail.duration.title"="Duration";
+"session.detail.bench.title"="Bench";
+
+"donation.blood"="Blood donation";
+"donation.plasma"="Plasma donation";
+"donation.palatet"="Palatet donation";

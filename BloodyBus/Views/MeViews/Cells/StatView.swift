@@ -34,8 +34,8 @@ class StatView: UIView {
     init() {
         super.init(frame: .zero)
         
-        brithLabel.titleLabel.text = "me.stat.birth".localized
-        sessionCount.titleLabel.text = "me.stat.sessioncount".localized
+        brithLabel.titleLabel.text = "me.stat.sessioncount".localized
+        sessionCount.titleLabel.text = "me.stat.bloodycoins".localized
         
         
         addSubview(brithLabel)

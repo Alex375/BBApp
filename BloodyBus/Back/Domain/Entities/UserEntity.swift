@@ -19,12 +19,15 @@ class UserEntity
     public var userName: String
     public var userId: String
     public var birthDate: Timestamp
+    public var slots: [UserSlotEntity]
+    
     
     init(user: UserModel, id: String) {
         self.id = id
         self.userName = user.userName
         self.userId = user.userId
         self.birthDate = user.birthDate
+        self.slots = UserSlotEntity.toEntity(userSlots: user.slots)
     }
     
     init(userName: String) {
@@ -32,6 +35,7 @@ class UserEntity
         self.userName = userName
         self.userId = ""
         self.birthDate = Timestamp()
+        self.slots = []
     }
     
     func toModel() -> UserModel
@@ -39,6 +43,8 @@ class UserEntity
         return UserModel(
             userName: self.userName,
             userId: self.userId,
-            birthDate: self.birthDate)
+            birthDate: self.birthDate,
+            slots: UserSlotEntity.toModel(userSlots: self.slots)
+        )
     }
 }

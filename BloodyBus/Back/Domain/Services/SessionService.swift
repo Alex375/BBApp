@@ -7,6 +7,7 @@
 
 import Foundation
 import Firebase
+import CoreLocation
 
 func getSessionEntity(completion: @escaping (SessionEntity?, Error?) -> Void, sessionRef: DocumentReference)
 {
@@ -43,4 +44,23 @@ func getAvailableSlots(session: SessionEntity, service: Int?) -> [SlotEntity]
         res = res.filter({$0.service == service})
     }
     return res
+}
+
+func getNearSessions(center: CLLocationCoordinate2D, radius: Double, sport: Int, completion: @escaping([SessionEntity], Error?) -> Void)
+{
+    getSessionAround(center: center, radius: radius, sport: sport, privacy: false) { sessions, error in
+        if let error = error {
+            completion([], error)
+            return
+        }
+        
+        var res: [SessionEntity] = []
+        
+        for session in sessions
+        {
+            let newSession = SessionEntity(session: session.0, id: session.1)
+            res.append(newSession)
+        }
+        completion(res, nil)
+    }
 }

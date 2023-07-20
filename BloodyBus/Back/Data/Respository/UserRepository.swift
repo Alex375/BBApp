@@ -43,3 +43,36 @@ func getUserModel(completion: @escaping (UserModel?, String?, Error?) -> Void) {
             }
         }
 }
+
+
+func createUserSession(userSlot: UserSlotModel, userID: String, completion: @escaping (UserSlotModel?, Error?) -> Void)
+{
+    let db = Firestore.firestore()
+    db.collection("users").document(userID)
+        .setData(["slots": FieldValue.arrayUnion([userSlot.toDict()])], merge: true) { error in
+            if let error = error
+            {
+                completion(nil, error)
+                return
+            }
+            completion(userSlot, nil)
+        }
+}
+
+
+func deleteUserSession(userID: String, userSlot: UserSlotModel, completion: @escaping(Error?) -> Void)
+{
+    let db = Firestore.firestore()
+        
+    
+    db.collection("users")
+        .document(userID)
+        .setData(["user-session": FieldValue.arrayRemove([userSlot.toDict()])], merge: true) { error in
+        if let error = error {
+            completion(error)
+            return
+        }
+            completion(nil)
+    }
+}
+

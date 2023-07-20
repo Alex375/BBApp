@@ -15,6 +15,7 @@ struct SessionModel: Codable
     let endTime: Timestamp
     let location: GeoPointModel
     let busRef: String
+    let services: [Int]
     let slots: [SlotModel]
     
     enum CodingKeys: String, CodingKey
@@ -23,6 +24,7 @@ struct SessionModel: Codable
         case endTime = "end-time"
         case location
         case busRef = "bus-ref"
+        case services
         case slots
     }
     
